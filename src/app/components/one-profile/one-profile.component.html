@@ -1,0 +1,35 @@
+<div class="one-profile">
+    <div class="one-profile-data">
+        <div class="one-profile-avatar">
+            <div class="one-profile-avatar-container">
+                <img [src]="avatar" alt="{{ name }}">
+            </div>
+        </div>
+        <div class="one-profile-info">
+            <p class="one-profile-name">{{ name }}</p>
+            <p class="one-profile-profession">{{ profession }}</p>
+        </div>
+    </div>
+    <div class="one-profile-button">
+        <app-button 
+            label="BUTTON" 
+            background="white" 
+            color="black" 
+            border="2px solid black" 
+            borderRadius="5px" 
+            fontSize="11px"
+            width="75px"
+            height="32px">
+        </app-button>
+        <app-button 
+            label="BUTTON" 
+            background="black" 
+            color="white" 
+            border="1px solid black" 
+            borderRadius="5px" 
+            fontSize="11px"
+            width="75px"
+            height="32px">
+        </app-button>
+    </div>
+</div>

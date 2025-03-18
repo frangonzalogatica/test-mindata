@@ -1,0 +1,63 @@
+.title-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .icon{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        &--green{
+            width: 24px;
+            height: 24px;
+            display: flex;
+            background: #2ecc71;
+            border-radius: 50%;
+
+            img{
+                max-width: initial;
+                width: 100%;
+                object-fit: contain;
+                padding: 5px;
+            }
+        }
+
+        &--fire{
+            width: 24px;
+            height: 24px;
+            display: flex;
+            background: #f8593b;
+            border-radius: 50%;
+
+            img{
+                max-width: initial;
+                width: 100%;
+                object-fit: contain;
+                padding: 5px;
+            }
+        }
+    }
+}
+
+.banner-container{
+    width: calc(100% + 52px);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: -26px;
+
+    img{
+        width: 100%;
+        max-width: initial;
+        max-height: 210px;
+        object-fit: cover;
+    }
+}
+
+.order-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 46px 0 24px;
+}

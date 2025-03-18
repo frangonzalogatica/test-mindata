@@ -1,0 +1,48 @@
+@import '../../../variables.scss';
+
+.profile{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    &-data{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        .profile-avatar{
+            width: 48px;
+            border-radius: 50%;
+            border: 2px solid $primary-color;
+            padding: 4px;
+            height: 48px;
+
+            img{
+                display: block;
+                width: inherit;
+            }
+        }
+
+        .profile-info{
+            p{
+                margin: 0;
+
+                &.profile-name{
+                    font-size: 19px;
+                    font-weight: 700;
+                    color: $primary-color;
+                    letter-spacing: 0;
+                }
+
+                &.profile-profession{
+                    font-size: 16px;
+                    color: $secondary-color;
+                    margin-top: -2px;
+                }
+            }
+        }
+    }
+}

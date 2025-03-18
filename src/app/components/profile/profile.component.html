@@ -1,0 +1,23 @@
+<div class="profile">
+    <div class="profile-data">
+        <div class="profile-avatar">
+            <img [src]="avatar" alt="{{ name }}">
+        </div>
+        <div class="profile-info">
+            <p class="profile-name">{{ name }}</p>
+            <p class="profile-profession">{{ profession }}</p>
+        </div>
+    </div>
+    <div class="profile-button">
+        <app-button 
+            label="FOLLOW" 
+            background="#c223f4" 
+            color="white" 
+            border="1px solid #c223f4" 
+            borderRadius="5px" 
+            fontSize="10px"
+            width="75px"
+            height="32px">
+        </app-button>
+    </div>
+</div>
